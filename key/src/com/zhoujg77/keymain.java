@@ -42,6 +42,16 @@ public class keymain {
 	    		robot.mousePress(KeyEvent.BUTTON1_MASK);
 	    		robot.mouseRelease(KeyEvent.BUTTON1_MASK);
 	    		robot.delay(500);
+	    		
+	    		robot.keyPress(KeyEvent.VK_F1);
+	    		robot.keyRelease(KeyEvent.VK_F1);
+	    		robot.delay(1500);
+	    		robot.keyPress(KeyEvent.VK_F2);
+	    		robot.keyRelease(KeyEvent.VK_F2);
+	    		robot.delay(1500);
+	    	
+	    		
+	    		
 		}
 		
 		
